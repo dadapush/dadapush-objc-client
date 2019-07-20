@@ -21,7 +21,7 @@ The SDK requires [**ARC (Automatic Reference Counting)**](http://stackoverflow.c
 Add the following to the Podfile:
 
 ```ruby
-pod 'DaDaPushClient', :git => 'https://github.com/GIT_USER_ID/GIT_REPO_ID.git'
+pod 'DaDaPushClient', :git => 'https://github.com/dadapush/dadapush-objc-client.git'
 ```
 
 To specify a particular branch, append `, :branch => 'branch-name-here'`
@@ -112,10 +112,6 @@ Class | Method | HTTP request | Description
  - [DaDaPushResultOfMessagePushResponse](docs/DaDaPushResultOfMessagePushResponse.md)
  - [DaDaPushResultOfPageResponseOfMessageObject](docs/DaDaPushResultOfPageResponseOfMessageObject.md)
 
-
-## Documentation For Authorization
-
- All endpoints do not require authorization.
 
 
 ## Author
